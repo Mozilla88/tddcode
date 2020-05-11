@@ -19,9 +19,9 @@ pacman -S gcc
 源代码使用步骤：
 1. 使用git check源代码，或者下载zip包之后解压缩。
 
-1. 打开命令行窗口（Windows上打开的是MSYS2的bash命令行窗口）
+2. 打开命令行窗口（Windows上打开的是MSYS2的bash命令行窗口）
 
-1. 下载编译CPPUTest
+3. 下载编译CPPUTest
 
 下载地址：https://cpputest.github.io
 
@@ -41,7 +41,7 @@ export CPPUTEST_HOME=~/tools/cpputest
 ```
 保存之后，在命令行执行source ~/.profile让其生效。
 
-1. 书中第4章之前的代码，既可以使用Unity也可以使用CppUTest来做单元测试。第5章之后的代码，仅支持使用CPPUTest做单元测试。
+4. 书中第4章之前的代码，既可以使用Unity也可以使用CppUTest来做单元测试。第5章之后的代码，仅支持使用CPPUTest做单元测试。
 
 - 使用Unity做单元测试，在源代码根目录执行：
 ```bash
