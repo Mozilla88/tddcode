@@ -1,0 +1,1 @@
+BOOL TimeService_MatchesNow(int reactionDay, int minute);
