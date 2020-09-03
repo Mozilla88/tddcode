@@ -18,8 +18,7 @@ CPPUTEST_WARNINGFLAGS += -Wall
 CPPUTEST_WARNINGFLAGS += -Werror 
 CPPUTEST_WARNINGFLAGS += -Wswitch-default 
 CPPUTEST_WARNINGFLAGS += -Wswitch-enum  
-CPPUTEST_WARNINGFLAGS += -Wno-self-assign
-CPPUTEST_WARNINGFLAGS += -Wno-reserved-id-macro -Wno-keyword-macro -Wno-unused-parameter -Wno-pedantic -Wno-shadow -Wno-format-nonliteral -Wno-documentation -Wno-shorten-64-to-32 -Wno-covered-switch-default
+CPPUTEST_WARNINGFLAGS += -Wno-self-assign -Wno-covered-switch-default -Wno-shorten-64-to-32 -Wno-reserved-id-macro -Wno-cast-function-type -Wno-unknown-warning-option -Wno-pedantic -Wno-shadow 
 CPPUTEST_CFLAGS += -std=c99
 CPPUTEST_CFLAGS += -Wextra 
 CPPUTEST_CFLAGS += -pedantic 
